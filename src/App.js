@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import "./App.css";
+import logo from './assets/icons/hypere.png';
 
 class App extends React.Component {
   render = () => {
@@ -8,7 +9,7 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            <button><img src={logo} alt="hypere logo" href="." /></button>
           </div>
           <div className="social">
 
@@ -21,9 +22,9 @@ class App extends React.Component {
         <div className="content">
           <div className="title-holder">
             <h1>The internet. Changed forever.</h1>
-            <p>Hypere Browser is the future of web brosing. The first web browser that actually listens to it's user's requests. Press the button down below to shoot us an email with your feature request.</p>
+            <p>Hypere Browser is the future of web brosing. For the first time in the history of web browsers, you get to decide which features Hyper Browser will include. Press the button below to submit the feature request form.</p>
           </div>
-          <a href="mailto:astroianu530@gmail.com">
+          <a href="https://forms.gle/9vbhp7QbEBJFVFxT8">
             <div className="cta">Submit feature request</div>
           </a>
         </div>
